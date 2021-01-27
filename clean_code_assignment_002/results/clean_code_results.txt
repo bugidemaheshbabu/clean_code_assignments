@@ -1,0 +1,82 @@
+************* Module tests.test_car_apply_brakes
+tests/test_car_apply_brakes.py:20: [C0301(line-too-long), ] Line too long (81/79)
+tests/test_car_apply_brakes.py:70: [C0301(line-too-long), ] Line too long (89/79)
+tests/test_car_apply_brakes.py:75: [C0301(line-too-long), ] Line too long (84/79)
+************* Module tests.test_truck_unload
+tests/test_truck_unload.py:5: [C0301(line-too-long), ] Line too long (108/79)
+tests/test_truck_unload.py:24: [C0301(line-too-long), ] Line too long (81/79)
+tests/test_truck_unload.py:27: [C0301(line-too-long), ] Line too long (111/79)
+tests/test_truck_unload.py:70: [C0301(line-too-long), ] Line too long (109/79)
+************* Module tests.test_truck_apply_brakes
+tests/test_truck_apply_brakes.py:5: [C0301(line-too-long), ] Line too long (100/79)
+tests/test_truck_apply_brakes.py:18: [C0301(line-too-long), ] Line too long (116/79)
+************* Module tests.test_car_accelerate
+tests/test_car_accelerate.py:40: [C0301(line-too-long), ] Line too long (81/79)
+tests/test_car_accelerate.py:42: [C0301(line-too-long), ] Line too long (91/79)
+tests/test_car_accelerate.py:57: [C0301(line-too-long), ] Line too long (96/79)
+************* Module tests.test_car
+tests/test_car.py:6: [C0301(line-too-long), ] Line too long (93/79)
+tests/test_car.py:15: [C0301(line-too-long), ] Line too long (105/79)
+************* Module tests.test_race_car_apply_brakes
+tests/test_race_car_apply_brakes.py:5: [C0301(line-too-long), ] Line too long (84/79)
+tests/test_race_car_apply_brakes.py:7: [C0301(line-too-long), ] Line too long (82/79)
+tests/test_race_car_apply_brakes.py:18: [C0301(line-too-long), ] Line too long (97/79)
+tests/test_race_car_apply_brakes.py:32: [C0301(line-too-long), ] Line too long (87/79)
+tests/test_race_car_apply_brakes.py:52: [C0301(line-too-long), ] Line too long (92/79)
+tests/test_race_car_apply_brakes.py:70: [C0301(line-too-long), ] Line too long (87/79)
+tests/test_race_car_apply_brakes.py:72: [C0301(line-too-long), ] Line too long (85/79)
+************* Module tests.test_truck_load
+tests/test_truck_load.py:16: [C0301(line-too-long), ] Line too long (96/79)
+tests/test_truck_load.py:28: [C0301(line-too-long), ] Line too long (98/79)
+tests/test_truck_load.py:42: [C0301(line-too-long), ] Line too long (98/79)
+tests/test_truck_load.py:56: [C0301(line-too-long), ] Line too long (88/79)
+tests/test_truck_load.py:69: [C0301(line-too-long), ] Line too long (99/79)
+tests/test_truck_load.py:84: [C0301(line-too-long), ] Line too long (98/79)
+tests/test_truck_load.py:101: [C0301(line-too-long), ] Line too long (110/79)
+************* Module tests.test_race_car_accelerate
+tests/test_race_car_accelerate.py:22: [C0301(line-too-long), ] Line too long (91/79)
+tests/test_race_car_accelerate.py:108: [C0301(line-too-long), ] Line too long (86/79)
+tests/test_race_car_accelerate.py:110: [C0301(line-too-long), ] Line too long (82/79)
+tests/test_race_car_accelerate.py:122: [C0301(line-too-long), ] Line too long (83/79)
+tests/test_race_car_accelerate.py:124: [C0301(line-too-long), ] Line too long (82/79)
+tests/test_race_car_accelerate.py:139: [C0301(line-too-long), ] Line too long (80/79)
+************* Module tests.test_truck_accelerate
+tests/test_truck_accelerate.py:23: [C0301(line-too-long), ] Line too long (89/79)
+tests/test_truck_accelerate.py:1: [R0801(duplicate-code), ] Similar lines in 3 files
+==tests.test_race_car_accelerate:72
+==tests.test_race_car_apply_brakes:33
+==tests.test_race_car_apply_brakes:72
+    racecar1.start_engine()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+tests/test_truck_accelerate.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.test_race_car_accelerate:72
+==tests.test_race_car_apply_brakes:53
+    racecar1.start_engine()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+tests/test_truck_accelerate.py:1: [R0801(duplicate-code), ] Similar lines in 4 files
+==tests.test_race_car_accelerate:91
+==tests.test_race_car_apply_brakes:33
+==tests.test_race_car_apply_brakes:53
+==tests.test_race_car_apply_brakes:72
+    racecar1.start_engine()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+    racecar1.accelerate()
+
+------------------------------------------------------------------
+Your code has been rated at 9.45/10 (previous run: 9.94/10, -0.48)
+

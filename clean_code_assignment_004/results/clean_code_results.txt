@@ -1,0 +1,10 @@
+************* Module fb_post.utils.get_post
+fb_post/utils/get_post.py:90: [W2207(max-for-block-size), seperating_comment_and_reply_comments] Too many statements in for block (5/4)
+************* Module fb_post/constants
+fb_post/constants.py:1: [C0103(invalid-name), ] Module name "fb_post/constants" doesn't conform to snake_case naming style
+************* Module fb_post/exceptions
+fb_post/exceptions.py:1: [C0103(invalid-name), ] Module name "fb_post/exceptions" doesn't conform to snake_case naming style
+
+------------------------------------------------------------------
+Your code has been rated at 9.88/10 (previous run: 8.49/10, +1.40)
+

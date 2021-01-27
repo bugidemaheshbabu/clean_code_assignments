@@ -1,0 +1,19 @@
+Clean Code Results Summary at 23 Apr 09 30 PM:
+
+Overall Score: 9.453237410071942
+
+File wise summary:
+car: 10.0
+truck: 10.0
+race_car: 10.0
+tests.test_car_apply_brakes: 9.375
+tests.test_truck_unload: 9.166666666666666
+tests.test_truck_apply_brakes: 9.25925925925926
+tests.test_car_accelerate: 9.142857142857142
+tests.test_car: 9.743589743589745
+tests.test_race_car_apply_brakes: 8.653846153846153
+tests.test_truck_load: 8.727272727272727
+tests.test_race_car: 10.0
+tests.test_truck: 10.0
+tests.test_race_car_accelerate: 9.2
+tests.test_truck_accelerate: 8.75

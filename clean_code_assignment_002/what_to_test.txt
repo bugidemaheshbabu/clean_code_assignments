@@ -1,0 +1,60 @@
+"""
+----Task1----Creating a car template---
+1.create car instance with valid details
+2.create car instance with invalid details like negative values for max_speed raises ValueError
+3.create car instance with invalid details like negative values for acceleration raises ValueError
+4.create car instance with invalid details like negative values for tyre_friction raises ValueError
+5.handling other data types for car attributes
+
+----Task2----Starting Car----
+5.starting a car if is_engine_started returns true
+
+----Task3----Display Car Speed----
+6.current_speed when engine is started without accelerated returns 0
+test_current_speed_when_engine_is_not_started_returns_string
+
+----Task4----Increasing Car speed----
+7.current_speed after acceleration returns acceleration value
+8.acceleration without starting engine returns 'start the engine to accelerate
+9.accelerating car more than max_speed returns max_speed
+
+----Task5----Apply Brakes----
+10.current_speed after applying brakes decreases by tyre_friction value if engine is started returns current_speed minus tyre_friction
+11.applying brakes once if tyre_friction is greater than acceleration and accelerated once will come down to zero
+12.applying brakes continuously returns current_speed to zero
+13.applying brakes without starting engine returns current_speed zero
+
+----Task6----Sound Horn----
+14.sound_horn without starting engine displays start the engine to sound_horn
+15.sound_horn if engine is started return sound_horn
+
+----Task7----Stop engine----
+16.stop_engine without starting engine returns is_engine_started False
+17.stopping engine after starting engine returns is_engine_started False
+18.stopping engine while car is in motion should gradually decreases current_speed and goes to zero returns zero
+
+----Task8----Encapsulation----
+19.test_encapsulation_for_current_speed
+20.test_encapsulation_for_acceleration
+21.test_encapsulation_for_max_speed
+22.test_encapsulation_for_tyre_friction
+"""
+
+
+"""
+1.test_create_truck_with_valid_details
+2.test_create_multiple_truck_with_valid_details
+3.test_invalid_max_speed_attr
+4.test_invalid_acceleration_attr
+5.test_invalid_tyre_friction_attr
+5.test_invalid_max_cargo_weight_attr
+6.test_start_engine
+7.test_start_engine_for_multiple_objects
+8.test_start_engine_when_engine_is_started_twice
+9.test_current_speed_when_engine_is_started_for_newly_created_object_returns_zero
+10.test_current_speed_for_newly_created_object_returns_zero
+11.test_accelerate_when_car_engine_is_not_started_prints_string
+12.test_accelerate_truck_once_returns_current_speed_equlas_to_acceleration_value
+13.test_accelerate_truck_more_than_max_speed
+14.test_acceleration_when_acceleration_value_greater_than_max_speed_returns_max_speed
+"""
